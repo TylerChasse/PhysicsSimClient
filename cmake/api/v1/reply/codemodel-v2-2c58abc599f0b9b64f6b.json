@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-890cc574e3b4da8c03f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PhysicsSimulator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PhysicsSimulator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PhysicsSimulator-Debug-6bd169632a19f54b05c3.json",
+					"name" : "PhysicsSimulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PhysicsSimulator_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PhysicsSimulator_autogen-Debug-216383945c6047954086.json",
+					"name" : "PhysicsSimulator_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PhysicsSimulator_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PhysicsSimulator_autogen_timestamp_deps-Debug-7429efbfca0a07126336.json",
+					"name" : "PhysicsSimulator_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug",
+		"source" : "C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/PhysicsSimulator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
