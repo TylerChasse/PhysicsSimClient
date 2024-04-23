@@ -1,0 +1,9 @@
+C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/PhysicsSimulator.dir
+C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/edit_cache.dir
+C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/list_install_components.dir
+C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/install.dir
+C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/install/local.dir
+C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/install/strip.dir
+C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/PhysicsSimulator_autogen_timestamp_deps.dir
+C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/PhysicsSimulator_autogen.dir

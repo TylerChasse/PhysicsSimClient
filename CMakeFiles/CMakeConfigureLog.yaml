@@ -1,0 +1,218 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:206 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: Emscripten - 1 - x86
+      The host system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/Qt6Dependencies.cmake:24 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:119 (include)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-8f8mc4"
+      binary: "C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-8f8mc4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/platforms;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/platforms;C:/Qt/emscripten/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/emscripten/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/emscripten/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/emscripten/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "C:/Qt/6.6.3/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-8f8mc4'
+        
+        Run Build Command(s): C:/Users/22cha/anaconda3/Library/bin/ninja.exe -v cmTC_d8eeb
+        [1/2] C:\\Qt\\emscripten\\emsdk\\upstream\\emscripten\\em++.bat -DCMAKE_HAVE_LIBC_PTHREAD  -DQT_QML_DEBUG  -std=gnu++17 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_d8eeb.dir/src.cxx.o -MF CMakeFiles\\cmTC_d8eeb.dir\\src.cxx.o.d -o CMakeFiles/cmTC_d8eeb.dir/src.cxx.o -c C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-8f8mc4/src.cxx
+        [2/2] cmd.exe /C "cd . && C:\\Qt\\emscripten\\emsdk\\upstream\\emscripten\\em++.bat -DQT_QML_DEBUG  CMakeFiles/cmTC_d8eeb.dir/src.cxx.o -o cmTC_d8eeb.js   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:30 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:41 (include)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:39 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:164 (find_package)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-ew8ne8"
+      binary: "C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-ew8ne8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/platforms;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/platforms;C:/Qt/emscripten/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/emscripten/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/emscripten/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/emscripten/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "C:/Qt/6.6.3/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-ew8ne8'
+        
+        Run Build Command(s): C:/Users/22cha/anaconda3/Library/bin/ninja.exe -v cmTC_9ceb6
+        [1/2] C:\\Qt\\emscripten\\emsdk\\upstream\\emscripten\\em++.bat -DHAVE_STDATOMIC  -DQT_QML_DEBUG  -std=gnu++17 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_9ceb6.dir/src.cxx.o -MF CMakeFiles\\cmTC_9ceb6.dir\\src.cxx.o.d -o CMakeFiles/cmTC_9ceb6.dir/src.cxx.o -c C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-ew8ne8/src.cxx
+        [2/2] cmd.exe /C "cd . && C:\\Qt\\emscripten\\emsdk\\upstream\\emscripten\\em++.bat -DQT_QML_DEBUG  CMakeFiles/cmTC_9ceb6.dir/src.cxx.o -o cmTC_9ceb6.js   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/FindWrapRt.cmake:23 (check_cxx_source_compiles)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:30 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:41 (include)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:39 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:164 (find_package)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Performing Test HAVE_GETTIME"
+    directories:
+      source: "C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-35zscx"
+      binary: "C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-35zscx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/platforms;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/platforms;C:/Qt/emscripten/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/emscripten/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/emscripten/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/emscripten/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "C:/Qt/6.6.3/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_GETTIME"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-35zscx'
+        
+        Run Build Command(s): C:/Users/22cha/anaconda3/Library/bin/ninja.exe -v cmTC_041f5
+        [1/2] C:\\Qt\\emscripten\\emsdk\\upstream\\emscripten\\em++.bat -DHAVE_GETTIME  -DQT_QML_DEBUG  -std=gnu++17 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_041f5.dir/src.cxx.o -MF CMakeFiles\\cmTC_041f5.dir\\src.cxx.o.d -o CMakeFiles/cmTC_041f5.dir/src.cxx.o -c C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-35zscx/src.cxx
+        [2/2] cmd.exe /C "cd . && C:\\Qt\\emscripten\\emsdk\\upstream\\emscripten\\em++.bat -DQT_QML_DEBUG  CMakeFiles/cmTC_041f5.dir/src.cxx.o -o cmTC_041f5.js   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/FindWrapRt.cmake:34 (check_cxx_source_compiles)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:30 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:41 (include)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:39 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:164 (find_package)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Performing Test HAVE_SHM_OPEN_SHM_UNLINK"
+    directories:
+      source: "C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-lannn6"
+      binary: "C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-lannn6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/platforms;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/platforms;C:/Qt/emscripten/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/emscripten/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/emscripten/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/emscripten/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "C:/Qt/6.6.3/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_SHM_OPEN_SHM_UNLINK"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-lannn6'
+        
+        Run Build Command(s): C:/Users/22cha/anaconda3/Library/bin/ninja.exe -v cmTC_58665
+        [1/2] C:\\Qt\\emscripten\\emsdk\\upstream\\emscripten\\em++.bat -DHAVE_SHM_OPEN_SHM_UNLINK  -DQT_QML_DEBUG  -std=gnu++17 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_58665.dir/src.cxx.o -MF CMakeFiles\\cmTC_58665.dir\\src.cxx.o.d -o CMakeFiles/cmTC_58665.dir/src.cxx.o -c C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-lannn6/src.cxx
+        [2/2] cmd.exe /C "cd . && C:\\Qt\\emscripten\\emsdk\\upstream\\emscripten\\em++.bat -DQT_QML_DEBUG  CMakeFiles/cmTC_58665.dir/src.cxx.o -o cmTC_58665.js   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/FindEGL.cmake:127 (check_cxx_source_compiles)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:30 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:39 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:164 (find_package)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Performing Test HAVE_EGL"
+    directories:
+      source: "C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-pynzad"
+      binary: "C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-pynzad"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/platforms;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/platforms;C:/Qt/emscripten/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/emscripten/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/emscripten/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/emscripten/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.6.3/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "C:/Qt/6.6.3/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_EGL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-pynzad'
+        
+        Run Build Command(s): C:/Users/22cha/anaconda3/Library/bin/ninja.exe -v cmTC_9fdd5
+        [1/2] C:\\Qt\\emscripten\\emsdk\\upstream\\emscripten\\em++.bat -DHAVE_EGL  -DQT_QML_DEBUG  -std=gnu++17 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_9fdd5.dir/src.cxx.o -MF CMakeFiles\\cmTC_9fdd5.dir\\src.cxx.o.d -o CMakeFiles/cmTC_9fdd5.dir/src.cxx.o -c C:/Users/22cha/OneDriveChamplainCollege/CSI-280/PhysicsSimulator/build-PhysicsSimulator-WebAssembly_Qt_6_6_3_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-pynzad/src.cxx
+        [2/2] cmd.exe /C "cd . && C:\\Qt\\emscripten\\emsdk\\upstream\\emscripten\\em++.bat -DQT_QML_DEBUG  CMakeFiles/cmTC_9fdd5.dir/src.cxx.o -o cmTC_9fdd5.js   && cd ."
+        
+      exitCode: 0
+...
